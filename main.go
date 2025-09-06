@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"golang-cicd-test/helpers"
+)
 
 func main() {
-	fmt.Println("CICD Test")
+	fmt.Println(helpers.OUTPUT)
 }
