@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       - go mod tidy
-      - GOOS=linux GOARCH=arm64 go build -o main .
+      - GOOS=linux GOARCH=amd4 go build -o main .
 artifacts:
   files:
     - main
