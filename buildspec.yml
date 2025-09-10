@@ -10,6 +10,6 @@ phases:
       - GOOS=linux GOARCH=amd64 go build -o main .
 artifacts:
   files:
-    - main
+    - "**/*"
   base-directory: $CODEBUILD_SRC_DIR
   discard-paths: no
