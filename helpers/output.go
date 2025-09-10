@@ -1,3 +1,3 @@
 package helpers
 
-const OUTPUT = "CICD Test by Jaineyyy!"
+const OUTPUT = "CICD in AWS CodeBuild, CodeDeploy and Pipeline Test by Jaineyyy!"
